@@ -28,7 +28,7 @@ export default function Header() {
           <div className="text-end col-9">
             {
               wallet
-              ? <a href="/create" className="btn btn-warning">Pedir Ajuda</a>
+              ? <a href="/create" className="btn btn-warning">Ask for help</a>
               : <button type="button" className="btn btn-outline-light me-2" onClick={btnLoginClick}>
               <img src="/metamask.svg" width="24" className="me-3"/>
                 Entrar

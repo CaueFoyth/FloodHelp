@@ -2,7 +2,7 @@ import "./globals.css";
 
 export const metadata = {
   title: "FloodHelp",
-  description: "Ajude os desabrigados pelas enchentes",
+  description: "Help those displaced by the floods",
   charSet: "utf-8" 
 };
 

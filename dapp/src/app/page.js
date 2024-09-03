@@ -35,13 +35,13 @@ export default function Home() {
     <Header />
     <div className="container">
       <div className="row ps-5">
-        <p className="lead m-4">Ajude as vítimas de enchentes e demais desastres naturais do Brasil.</p>
+        <p className="lead m-4">Help the victims of floods and other natural disasters.</p>
         <div className="p-4 mx-5">
           <div className="list-group">
             {
               requests && requests.length
               ? requests.map(rq => <Request key={rq.id} data={rq} />)
-              : <>Conecte sua carteira MetaMask no botão "Entrar" para ajudar ou pedir ajuda.</>
+              : <>Connect your MetaMask wallet to the “Login” button to help or ask for help.</>
             }
           </div>
         </div>

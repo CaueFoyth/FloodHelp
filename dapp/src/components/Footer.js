@@ -6,10 +6,10 @@ export default function Footer() {
           </p>
           <ul className="nav col-md-4 justify-content-end">
             <li className="nav-item">
-              <a href="/" className="nav-link px-2 text-body-secondary">Ajudar</a>
+              <a href="/" className="nav-link px-2 text-body-secondary">Help</a>
             </li>
             <li className="nav-item">
-              <a href="/create" className="nav-link px-4 text-body-secondary">Pedir Ajudar</a>
+              <a href="/create" className="nav-link px-4 text-body-secondary">Ask for help</a>
             </li>
           </ul>
         </footer>
